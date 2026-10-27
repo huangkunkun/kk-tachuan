@@ -1,0 +1,25 @@
+# Local release artifacts and transient build output
+/releases/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Official third-party archives and extracted source are reference-only.
+/docs/reference/*
+!/docs/reference/contract-comparison.json
+!/docs/reference/version-audit.json
+
+# Generated reports and obsolete demonstration screenshots
+/docs/test-results.json
+/docs/release-checks.json
+/docs/release-validation.json
+/docs/mock-upload.png
+/docs/upload-modes.png
+/docs/upload-success-confetti.jpg
+/docs/compatibility-v11.3.0.jpg
+/docs/directory-follow.jpg
+/publishing/screenshot-1280x800.jpg

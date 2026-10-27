@@ -1,0 +1,1607 @@
+{
+  "baseline": "11.3.0 (the six compared methods match the 11.7.0 reference)",
+  "method": "Python AST with docstrings removed; static frontend symbol search",
+  "results": [
+    {
+      "version": "8.0.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-8.0.0.zip",
+      "sha256": "2fede5eb92415aabc1d28bf91ef767d34764a776cd611aa8e745b3b9890c56ed",
+      "archiveBytes": 14279280,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": false,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": false
+        },
+        "upload_files_exists": {
+          "present": false,
+          "matches117": false
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": false
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": false
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 0,
+          "sample": []
+        },
+        "fileTabActiveData": {
+          "count": 0,
+          "sample": []
+        },
+        "vite_public_version": {
+          "count": 0,
+          "sample": []
+        },
+        "vite_public_request_token": {
+          "count": 0,
+          "sample": []
+        },
+        "#request_token_head": {
+          "count": 5,
+          "sample": [
+            "panel/BTPanel/static/js/files.js",
+            "panel/BTPanel/static/js/firewall.js",
+            "panel/BTPanel/static/js/public.js"
+          ]
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [],
+          "versionToken": false,
+          "requestToken": false
+        }
+      ]
+    },
+    {
+      "version": "8.0.5",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-8.0.5.zip",
+      "sha256": "5861d95e905f283fd93769ea2d34c69be4eedc5b201232a67447cd0cc82c821a",
+      "archiveBytes": 31353873,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": false,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": false
+        },
+        "upload_files_exists": {
+          "present": false,
+          "matches117": false
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": false
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": false
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 0,
+          "sample": []
+        },
+        "fileTabActiveData": {
+          "count": 0,
+          "sample": []
+        },
+        "vite_public_version": {
+          "count": 3,
+          "sample": [
+            "panel/BTPanel/static/vite/js/main-legacy.js",
+            "panel/BTPanel/static/vite/js/main.js",
+            "panel/BTPanel/templates/default/index1.html"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 11,
+          "sample": [
+            "panel/BTPanel/static/vite/js/index-legacy22.js",
+            "panel/BTPanel/static/vite/js/index-legacy25.js",
+            "panel/BTPanel/static/vite/js/index-legacy57.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 5,
+          "sample": [
+            "panel/BTPanel/static/js/site.js",
+            "panel/BTPanel/static/js/files.js",
+            "panel/BTPanel/static/js/firewall.js"
+          ]
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [],
+          "versionToken": false,
+          "requestToken": false
+        }
+      ]
+    },
+    {
+      "version": "8.2.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-8.2.0.zip",
+      "sha256": "ad15138c5cef74566d3aaafe976d6316326b7f3aca7b1703522d7a8cae4dfad8",
+      "archiveBytes": 34989407,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": false
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": false
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": false
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 0,
+          "sample": []
+        },
+        "fileTabActiveData": {
+          "count": 32,
+          "sample": [
+            "panel/BTPanel/static/vite/js/Compress-legacy.js",
+            "panel/BTPanel/static/vite/js/Compress.js",
+            "panel/BTPanel/static/vite/js/Decompression-legacy.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 5,
+          "sample": [
+            "panel/BTPanel/static/vite/js/home.store-legacy.js",
+            "panel/BTPanel/static/vite/js/home.store.js",
+            "panel/BTPanel/static/vite/js/index-legacy2.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 40,
+          "sample": [
+            "panel/BTPanel/static/vite/js/AddSitePopup-legacy6.js",
+            "panel/BTPanel/static/vite/js/AddSitePopup-legacy7.js",
+            "panel/BTPanel/static/vite/js/AddSitePopup6.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 5,
+          "sample": [
+            "panel/BTPanel/static/js/files.js",
+            "panel/BTPanel/static/js/firewall.js",
+            "panel/BTPanel/static/js/public.js"
+          ]
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [],
+          "versionToken": false,
+          "requestToken": false
+        }
+      ]
+    },
+    {
+      "version": "9.1.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-9.1.0.zip",
+      "sha256": "b32560b55321ab3e58035fe0e6e215482d4372d9310be9637cf2f7d676c9acab",
+      "archiveBytes": 35960911,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": false
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": false
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": false
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 0,
+          "sample": []
+        },
+        "fileTabActiveData": {
+          "count": 34,
+          "sample": [
+            "panel/BTPanel/static/vite/js/Compress-legacy.js",
+            "panel/BTPanel/static/vite/js/Compress.js",
+            "panel/BTPanel/static/vite/js/Decompression-legacy.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 5,
+          "sample": [
+            "panel/BTPanel/static/vite/js/home.store-legacy.js",
+            "panel/BTPanel/static/vite/js/home.store.js",
+            "panel/BTPanel/static/vite/js/index-legacy2.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 52,
+          "sample": [
+            "panel/BTPanel/static/vite/js/AddSitePopup-legacy6.js",
+            "panel/BTPanel/static/vite/js/AddSitePopup-legacy7.js",
+            "panel/BTPanel/static/vite/js/AddSitePopup6.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 5,
+          "sample": [
+            "panel/BTPanel/static/js/files.js",
+            "panel/BTPanel/static/js/firewall.js",
+            "panel/BTPanel/static/js/public.js"
+          ]
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [],
+          "versionToken": false,
+          "requestToken": false
+        }
+      ]
+    },
+    {
+      "version": "9.2.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-9.2.0.zip",
+      "sha256": "44ccad5f7dbbcb5f2bb502bf2d9fba8496a18ca82c873dec1ba043967ff40aae",
+      "archiveBytes": 38456420,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": false
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 0,
+          "sample": []
+        },
+        "fileTabActiveData": {
+          "count": 38,
+          "sample": [
+            "panel/BTPanel/static/vite/js/Compress-legacy.js",
+            "panel/BTPanel/static/vite/js/Compress.js",
+            "panel/BTPanel/static/vite/js/Decompression-legacy.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 6,
+          "sample": [
+            "panel/BTPanel/static/vite/js/home.store-legacy.js",
+            "panel/BTPanel/static/vite/js/home.store.js",
+            "panel/BTPanel/static/vite/js/index-legacy2.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 55,
+          "sample": [
+            "panel/BTPanel/static/js/utils.js",
+            "panel/BTPanel/static/js/utils.min.js",
+            "panel/BTPanel/static/vite/js/AddSitePopup-legacy7.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 5,
+          "sample": [
+            "panel/BTPanel/static/js/files.js",
+            "panel/BTPanel/static/js/firewall.js",
+            "panel/BTPanel/static/js/public.js"
+          ]
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "app"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "9.3.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-9.3.0.zip",
+      "sha256": "93b38eb8941b42b94da39a8c0500f55ae6f3db433410ef531a7232cae34e92aa",
+      "archiveBytes": 41703052,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 44,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy194.js",
+            "panel/BTPanel/static/js/index-legacy223.js",
+            "panel/BTPanel/static/js/index-legacy35.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 12,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy3.js",
+            "panel/BTPanel/static/js/store-legacy4.js",
+            "panel/BTPanel/static/js/store3.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 83,
+          "sample": [
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js",
+            "panel/BTPanel/static/js/index-legacy13.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "9.4.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-9.4.0.zip",
+      "sha256": "fd075040307d7d32a58ca656222c414abf0ac71af4b2b2e3f33c3d8b3ff98272",
+      "archiveBytes": 29140039,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy224.js",
+            "panel/BTPanel/static/js/index-legacy252.js",
+            "panel/BTPanel/static/js/index-legacy35.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy3.js",
+            "panel/BTPanel/static/js/store-legacy4.js",
+            "panel/BTPanel/static/js/store3.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 47,
+          "sample": [
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js",
+            "panel/BTPanel/static/js/index-legacy13.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "9.5.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-9.5.0.zip",
+      "sha256": "ac24c3c33ffe2e719adf75eb9779867cd8b565f4939aef19f3be2acacacdffb8",
+      "archiveBytes": 30252971,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy231.js",
+            "panel/BTPanel/static/js/index-legacy259.js",
+            "panel/BTPanel/static/js/index-legacy36.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy3.js",
+            "panel/BTPanel/static/js/store-legacy4.js",
+            "panel/BTPanel/static/js/store3.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 51,
+          "sample": [
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js",
+            "panel/BTPanel/static/js/index-legacy12.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "9.6.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-9.6.0.zip",
+      "sha256": "d244231cd6ee0c0c7f6e6b48c7e74519cd760d68b074ba215ed892e0ef67b2d8",
+      "archiveBytes": 30448623,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy234.js",
+            "panel/BTPanel/static/js/index-legacy262.js",
+            "panel/BTPanel/static/js/index-legacy38.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy3.js",
+            "panel/BTPanel/static/js/store-legacy4.js",
+            "panel/BTPanel/static/js/store3.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 49,
+          "sample": [
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js",
+            "panel/BTPanel/static/js/index-legacy109.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.0.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.0.0.zip",
+      "sha256": "43ab7e29a880b57cbe4acf4e9990b44c753b2e0d72c6cfbaf4574faa58565c9f",
+      "archiveBytes": 32250336,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy239.js",
+            "panel/BTPanel/static/js/index-legacy267.js",
+            "panel/BTPanel/static/js/index239.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy3.js",
+            "panel/BTPanel/static/js/store-legacy4.js",
+            "panel/BTPanel/static/js/store3.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 55,
+          "sample": [
+            "panel/BTPanel/static/js/upload.js",
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.1.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.1.0.zip",
+      "sha256": "99f6636c657a5b68baf194051d64cad799c9dac3967cc4517f107f76567aace9",
+      "archiveBytes": 32500421,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy241.js",
+            "panel/BTPanel/static/js/index-legacy269.js",
+            "panel/BTPanel/static/js/index241.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy3.js",
+            "panel/BTPanel/static/js/store-legacy4.js",
+            "panel/BTPanel/static/js/store3.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 55,
+          "sample": [
+            "panel/BTPanel/static/js/upload.js",
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.2.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.2.0.zip",
+      "sha256": "c51f4d0fa950ca3b29115160193982be6c5d4c648538e230f41f71c4a808e1dd",
+      "archiveBytes": 32746887,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": false
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/validator-legacy.js",
+            "panel/BTPanel/static/js/validator.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy153.js",
+            "panel/BTPanel/static/js/index-legacy181.js",
+            "panel/BTPanel/static/js/index153.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store-legacy2.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 51,
+          "sample": [
+            "panel/BTPanel/static/js/upload.js",
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.4.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.4.0.zip",
+      "sha256": "f749b2de55a54a6cf869bbd5acc6b336a0f09966cde24f8b07410468499d6445",
+      "archiveBytes": 33444836,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": true
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/validator-legacy.js",
+            "panel/BTPanel/static/js/validator.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy155.js",
+            "panel/BTPanel/static/js/index-legacy183.js",
+            "panel/BTPanel/static/js/index155.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store-legacy2.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 49,
+          "sample": [
+            "panel/BTPanel/static/js/upload.js",
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.4.1",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.4.1.zip",
+      "sha256": "b6fbe75407b8e62c3eba335d3bfa646165d179bd88bb74a11e02d219c5b9c465",
+      "archiveBytes": 33447143,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": true
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/validator-legacy.js",
+            "panel/BTPanel/static/js/validator.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy155.js",
+            "panel/BTPanel/static/js/index-legacy183.js",
+            "panel/BTPanel/static/js/index155.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store-legacy2.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 49,
+          "sample": [
+            "panel/BTPanel/static/js/upload.js",
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.5.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.5.0.zip",
+      "sha256": "60ffb5eecfbda6d01e5174b04b019ec12074a5c5d7645948a86fa34a376abb70",
+      "archiveBytes": 34380167,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": true
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/validator-legacy.js",
+            "panel/BTPanel/static/js/validator.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy155.js",
+            "panel/BTPanel/static/js/index-legacy183.js",
+            "panel/BTPanel/static/js/index155.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store-legacy2.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 49,
+          "sample": [
+            "panel/BTPanel/static/js/upload.js",
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.6.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.6.0.zip",
+      "sha256": "6b7738f9f56598e8c9b9a10f50e5ec69223497354cb19603ce6f046042aecd2f",
+      "archiveBytes": 34988420,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": true
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/validator-legacy.js",
+            "panel/BTPanel/static/js/validator.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/index-legacy154.js",
+            "panel/BTPanel/static/js/index-legacy182.js",
+            "panel/BTPanel/static/js/index154.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 8,
+          "sample": [
+            "panel/BTPanel/static/js/store-legacy.js",
+            "panel/BTPanel/static/js/store-legacy2.js",
+            "panel/BTPanel/static/js/store.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 49,
+          "sample": [
+            "panel/BTPanel/static/js/upload.js",
+            "panel/BTPanel/static/js/backup-view-legacy.js",
+            "panel/BTPanel/static/js/backup-view.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.8.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.8.0.zip",
+      "sha256": "a4c83bd5f1c1b950f3e875838bc3953e91f8b95ed54ca7d859943b01398af1f4",
+      "archiveBytes": 43464976,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": true
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/panel-view-website.js",
+            "panel/BTPanel/static/js/panel-view-website-legacy.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 4,
+          "sample": [
+            "panel/BTPanel/static/js/panel-view-files-legacy.js",
+            "panel/BTPanel/static/js/panel-view-files.js",
+            "panel/BTPanel/static/js/panel-view-website.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 20,
+          "sample": [
+            "panel/BTPanel/static/js/federation-runtime-legacy.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib.js",
+            "panel/BTPanel/static/js/federation-runtime.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 38,
+          "sample": [
+            "panel/BTPanel/static/js/btpanel-panel-business-components-lib.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-hooks-lib.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "11.8.1",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-11.8.1.zip",
+      "sha256": "5ca462b2d9443e6c976a0ed69090c0956e93178b1d5afc238ea5eeaaa01b5578",
+      "archiveBytes": 40448532,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": true
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/panel-view-website-legacy.js",
+            "panel/BTPanel/static/js/panel-view-website.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 4,
+          "sample": [
+            "panel/BTPanel/static/js/panel-view-files.js",
+            "panel/BTPanel/static/js/panel-view-website-legacy.js",
+            "panel/BTPanel/static/js/panel-view-files-legacy.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 20,
+          "sample": [
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib-legacy.js",
+            "panel/BTPanel/static/js/federation-runtime-legacy.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 37,
+          "sample": [
+            "panel/BTPanel/static/js/btpanel-panel-business-components-lib-legacy.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-hooks-lib-legacy.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "13.0.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-13.0.0.zip",
+      "sha256": "cbc70db32410ec8031b823c7afbc304c6d8de472ed170d1fab3c4accaab106d7",
+      "archiveBytes": 40395155,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": true
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/panel-view-home-legacy.js",
+            "panel/BTPanel/static/js/panel-view-home.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 4,
+          "sample": [
+            "panel/BTPanel/static/js/panel-view-files.js",
+            "panel/BTPanel/static/js/panel-view-home-legacy.js",
+            "panel/BTPanel/static/js/panel-view-files-legacy.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 13,
+          "sample": [
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib-legacy.js",
+            "panel/BTPanel/static/js/federation-runtime-legacy.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 36,
+          "sample": [
+            "panel/BTPanel/static/js/btpanel-panel-business-components-lib-legacy.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-hooks-lib-legacy.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    },
+    {
+      "version": "13.1.0",
+      "url": "https://download.bt.cn/install/update/LinuxPanel-13.1.0.zip",
+      "sha256": "2f14db9251e9a6683615b4d487120e5868ff5d9376a18f5876322a4bfe6a8d8c",
+      "archiveBytes": 47045782,
+      "filesPath": "panel/class/files.py",
+      "class": "files",
+      "methods": {
+        "GetDirNew": {
+          "present": true,
+          "matches117": true
+        },
+        "CreateDir": {
+          "present": true,
+          "matches117": true
+        },
+        "upload": {
+          "present": true,
+          "matches117": true
+        },
+        "upload_files_exists": {
+          "present": true,
+          "matches117": true
+        },
+        "UnZip": {
+          "present": true,
+          "matches117": true
+        },
+        "DeleteDir": {
+          "present": true,
+          "matches117": true
+        }
+      },
+      "frontend": {
+        "FILES-STORE": {
+          "count": 2,
+          "sample": [
+            "panel/BTPanel/static/js/panel-view-home.js",
+            "panel/BTPanel/static/js/panel-view-home-legacy.js"
+          ]
+        },
+        "fileTabActiveData": {
+          "count": 4,
+          "sample": [
+            "panel/BTPanel/static/js/panel-view-files-legacy.js",
+            "panel/BTPanel/static/js/panel-view-home.js",
+            "panel/BTPanel/static/js/panel-view-files.js"
+          ]
+        },
+        "vite_public_version": {
+          "count": 13,
+          "sample": [
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib.js",
+            "panel/BTPanel/static/js/federation-runtime.js",
+            "panel/BTPanel/static/js/monaco-editor-runtime-legacy.js"
+          ]
+        },
+        "vite_public_request_token": {
+          "count": 36,
+          "sample": [
+            "panel/BTPanel/static/js/btpanel-panel-business-components-lib.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-hooks-lib-legacy.js",
+            "panel/BTPanel/static/js/btpanel-panel-business-store-lib.js"
+          ]
+        },
+        "#request_token_head": {
+          "count": 0,
+          "sample": []
+        }
+      },
+      "templates": [
+        {
+          "path": "panel/BTPanel/templates/default/index.html",
+          "mountIds": [
+            "root"
+          ],
+          "versionToken": true,
+          "requestToken": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "KK塔传 · KK宝塔文件上传助手",
+  "short_name": "KK塔传",
+  "version": "1.1.0",
+  "description": "在已登录的宝塔文件页面上传文件夹或文件，支持目录自动跟随、打包上传、逐个上传和文件核对。支持多个 Linux 面板版本。",
+  "minimum_chrome_version": "120",
+  "permissions": ["activeTab", "scripting"],
+  "icons": { "16": "icons/icon-16.png", "32": "icons/icon-32.png", "48": "icons/icon-48.png", "128": "icons/icon-128.png" },
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "KK塔传 · 在当前宝塔页面上传文件",
+    "default_icon": { "16": "icons/icon-16.png", "32": "icons/icon-32.png" }
+  }
+}

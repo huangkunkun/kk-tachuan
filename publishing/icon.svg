@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>KK塔传</title>
+  <g transform="translate(12.8 12.8) scale(.8)">
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="#137451"/>
+  <path d="M64 49 104 74H86v12h10v12H32V86h10V74H24Z" fill="#F3FFF8"/>
+  <path d="M64 19 82 38H71v25H57V38H46Z" fill="#FFD482"/>
+  <path d="M57 79h14v19H57Z" fill="#137451"/>
+  </g>
+</svg>
